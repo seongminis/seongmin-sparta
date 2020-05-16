@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <title>원페이지 쇼핑몰</title>
+
+  <style>
+    /* css 코드는 여기에 입력해주세요. */
+    .wrapper {
+        width: 500px;
+        margin: auto;
+      /* width를 지정하시고 좌, 우 마진을 auto로 지정하시면 가운데 위치시킬 수 있습니다. */
+    }
+
+    #goods-image {
+      /* 이미지에 적용하고 싶은 css 코드는 여기에 작성해주세요. */
+      width: 600px;
+      margin: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- 페이지 전체를 감싸는 wrapper div tag입니다.
+    페이지를 가운데로 위치시킬 때 사용해보세요! -->
+
+
+    <img id="goods-image" src="https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc3/Apple_MacBook_Air_and_MacBook_Pro_update_graphics_screen_070919_210.jpg">
+    <!-- 이미지 태크는 이렇게 사용합니다. 인터넷에서 적당한 이미지를 찾으신 후,
+    이미지에 대고 마우스 오른쪽 버튼 -> 이미지 주소복사 하신 후 그 값을 img 태그의 src 속성 값으로 지정하시면
+    이미지를 넣을 수 있어요. -->
+
+    <h1>노트북 팝니다</h1>
+    <span>1,000,000 Won / 개</span>
+    <p>
+      가볍고 성능 좋은 노트북입니다.
+    </p>
+
+    <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">주문자 이름</span>
+        </div>
+        <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+      </div>
+      <P></P>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">수량</span>
+        </div>
+        <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <P></P>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">주소</span>
+        </div>
+        <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <P></P>
+      <div class="input-group mb-3">
+        <div class="input-group-prepend">
+          <span class="input-group-text" id="basic-addon1">전화번호</span>
+        </div>
+        <input type="text" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      
+      
+      
+
+    <div>
+      <!-- 이 곳에는 주문자 성함, 수량, 주소, 전화번호를 받을 수 있는 form을 넣어주세요.
+      직접 input 태그를 사용하셔도 되고, bootstrap의 form 컴포넌트를 가져와서
+      약간 수정을 하시는것도 좋아보여요. -->
+    </div>
+    <button type="button" class="btn btn-primary">주문하기</button>
+    <!-- 이 부분에는 button tag를 사용하여 주문하기 버튼을 만들어주세요. -->
+    
+  </div>  
+</body>
+
+</html>
